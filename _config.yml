@@ -63,13 +63,13 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: a41dc2d82f54d7342e7d
-  clientSecret: 26bdf285773e33ebdc48a4958cb2607ad278877e
-  repo: Csen.github.io
-  owner: IsChusen
+  clientID: 
+  clientSecret: 
+  repo: 
+  owner: 
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: G-H337EZP79D
+google_analytics: 
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
