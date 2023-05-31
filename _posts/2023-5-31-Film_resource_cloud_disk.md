@@ -1,3 +1,11 @@
+---
+layout: post
+title: "楚森发布的电影资源"
+date:   2023-5-31
+tags: [movie]
+comments: true
+author: chusen
+---
 
 # 个人收集电影资源
 
@@ -23,6 +31,7 @@
 ![tianyi_resource](https://github.com/IsChusen/Csen.github.io/raw/master/images/2023-5-31-Film_resource_cloud_disk/tianyi_resource.png)
 
 
-**楚森个人云盘分享**
+**楚森个人云盘整理分享**  
+
 
 
