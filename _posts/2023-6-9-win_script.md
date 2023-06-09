@@ -38,28 +38,7 @@ import time
 
 ### 流程图
 
-```flow
-red=>read_excel: 读取
-
-st=>start: 开始
-
-op=>operation: 读取目录下指定png
-
-cond=>condition: 页面对比(存在或不存在)
-
-sub1=>subroutine: 等待0.1秒后继续对比（死循环）
-
-io=>inputoutput: 执行操作（1 单击  2 双击  3 右键  4 输入  5 等待  6滚轮  7键盘）
-
-e=>end: 结束
-
-st->op->cond
-
-cond(yes)->io->e
-
-cond(no)->sub1(right)->op
-
-```
+![win_ui](https://github.com/IsChusen/Csen.github.io/raw/master/images/june/win_ui.png)
 
 ### 源码
 
