@@ -20,70 +20,7 @@ author: chusen
 
 ### 流程图
 
-
-
-```flow
-st=>start: 开始
-
-op1=>operation: 设置url
-
-op2=>operation: 设置headers
-
-op3=>operation: 进入循环
-
-op4=>operation: 发送请求
-
-cond1=>condition: 请求成功？
-
-op5=>operation: 判断是否开始抢购
-
-cond2=>condition: 可以开始抢购？
-
-op6=>operation: 发送加入购物车请求
-
-cond3=>condition: 加入购物车成功？
-
-op7=>operation: 发送进入结算页面请求
-
-cond4=>condition: 进入结算页面成功？
-
-op8=>operation: 结束
-
-e=>end: 结束
-
-
-
-st->op1->op2->op3->op4->cond1
-
-cond1(yes)->op5
-
-cond1(no)->op3
-
-op5(yes)->cond2
-
-op5(no)->op3
-
-cond2(yes)->op6
-
-cond2(no)->op3
-
-op6(yes)->cond3
-
-op6(no)->op3
-
-cond3(yes)->op7
-
-cond3(no)->op3
-
-op7(yes)->cond4
-
-op7(no)->op3
-
-cond4(yes)->op8
-
-cond4(no)->op3
-```
-
+![maotai](https://github.com/IsChusen/Csen.github.io/raw/master/images/june/maotai.png)
 
 
 
