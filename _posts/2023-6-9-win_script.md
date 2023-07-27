@@ -256,7 +256,11 @@ if __name__ == '__main__':
     execute_custom_sheets(file, keys)
 ```
 
+# 打包为可执行文件exe
 
+使用python-pyinstaller库
+
+可执行程序[下载地址](https://cloud.189.cn/t/UzuaQnyeUNB3 （访问码：7ioi）)
 
 
 
