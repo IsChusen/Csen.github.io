@@ -259,6 +259,12 @@ if __name__ == '__main__':
 # 打包为可执行文件exe
 
 使用python-pyinstaller库
+```python
+pyinstaller -F main.py --noconsole -i C:\label.ico -p E:\Python_labs\test_gui_3\venv\Lib\site-packages
+#-F参数：将程序打包成一个.exe文件;
+#--noconsole参数：执行.exe文件时不显示cmd命令窗;
+#-p参数：指定程序依赖包的路径;
+```
 
 可执行程序[下载地址](https://cloud.189.cn/t/UzuaQnyeUNB3 （访问码：7ioi）)
 
